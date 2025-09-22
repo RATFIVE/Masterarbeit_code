@@ -852,7 +852,7 @@ wheels = [
 ]
 
 [[package]]
-name = "geomar-deeplearning"
+name = "Masterarbeit_code"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

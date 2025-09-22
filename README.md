@@ -1,4 +1,4 @@
-# GEOMAR-DeepLearning
+# Masterarbeit_code
 
 ## Projektübersicht
 Dieses Repository enthält ein Deep-Learning-Projekt zur Analyse von ozeanographischen und meteorologischen Daten. Ziel ist es, Vorhersagemodelle zu entwickeln, die auf historischen Daten basieren.
@@ -26,11 +26,11 @@ pip install -r requirements.txt
 ## Nutzung
 1. Klonen Sie das Repository:
    ```bash
-   git clone https://github.com/RATFIVE/GEOMAR-DeepLearning.git
+   git clone https://github.com/RATFIVE/Masterarbeit_code.git
    ```
 2. Navigieren Sie in das Verzeichnis:
    ```bash
-   cd GEOMAR-DeepLearning
+   cd Masterarbeit_code
    ```
 3. Führen Sie die gewünschten Skripte oder Notebooks aus.
 

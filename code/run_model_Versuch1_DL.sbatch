@@ -12,7 +12,7 @@
 
 # Argumente (können per sbatch --export übergeben werden)
 
-source /gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/.venv/bin/activate
+source /gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/.venv/bin/activate
 
 
 python 05_Versuch1_DL_OPTUNA.py

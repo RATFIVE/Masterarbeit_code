@@ -13,6 +13,6 @@
 # Argumente (können per sbatch --export übergeben werden)
 : "${n_trials:=100}"      # Default: 50 Optuna-Trials
 : "${ocean_points:=30}"      # Default: 50 Optuna-Trials
-source /gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/.venv/bin/activate
+source /gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/.venv/bin/activate
 
 python 03_feature_importance.py --n_trials "$n_trials" --ocean_points "$ocean_points"

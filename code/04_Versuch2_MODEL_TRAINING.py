@@ -506,7 +506,7 @@ def main():
     print(f"Anzahl der Trainingsfenster: {n_windows}")
 
     # Suche den Hyperparameterraum
-    yaml_base = Path("/gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/code/utils")
+    yaml_base = Path("/gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/code/utils")
     search_space = load_search_space(args.model, yaml_base)
     print("\nGeladener Suchraum:")
     pprint(search_space)

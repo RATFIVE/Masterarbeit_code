@@ -11,7 +11,7 @@
 #SBATCH --mail-type=END,FAIL
 
 : "${model:=LGBM}" # # z.B. "RandomForest", "SVR", "XGBoost", "LGBM", "Linear"
-source /gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/.venv/bin/activate
+source /gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/.venv/bin/activate
 
 
 python 04_Versuch3_ML_OPTUNA.py --model "$model"

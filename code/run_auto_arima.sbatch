@@ -11,7 +11,7 @@
 #SBATCH --mail-type=END,FAIL
 
 
-source /gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/.venv/bin/activate
+source /gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/.venv/bin/activate
 
 
 python auto_arima.py 

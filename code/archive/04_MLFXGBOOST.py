@@ -343,15 +343,15 @@ def main():
     # load search space from yaml file
     if args.model == "random_forest":
         print("\nLade Hyperparameter-Suchraum für Random Forest...")
-        with open("/gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/code/utils/rf_searchspace.yaml", "r") as f:
+        with open("/gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/code/utils/rf_searchspace.yaml", "r") as f:
             searchspace = yaml.safe_load(f)
     elif args.model == "svr":
         print("\nLade Hyperparameter-Suchraum für SVR...")
-        with open("/gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/code/utils/svr_searchspace.yaml", "r") as f:
+        with open("/gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/code/utils/svr_searchspace.yaml", "r") as f:
             searchspace = yaml.safe_load(f)
     elif args.model == "xgboost":
         print("\nLade Hyperparameter-Suchraum für XGBoost...")
-        with open("/gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/code/utils/xgb_searchspace.yaml", "r") as f:
+        with open("/gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/code/utils/xgb_searchspace.yaml", "r") as f:
             searchspace = yaml.safe_load(f)
 
     print("\nHyperparameter-Suchraum aus YAML-Datei:")

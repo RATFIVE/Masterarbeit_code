@@ -12,7 +12,7 @@
 #SBATCH --mail-type=END,FAIL
 
 # Aktivieren der virtuellen Umgebung
-source /gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/.venv/bin/activate
+source /gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/.venv/bin/activate
 
 # Umgebungsvariable für PyTorch setzen
 export PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True

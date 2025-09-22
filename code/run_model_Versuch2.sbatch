@@ -14,7 +14,7 @@
 : "${N_TRIALS:=1000}"      # Default: 100 Optuna-Trials
 : "${timeout:=7200}"     # Timeout in Sekunden (Standard: 1 Stunde)
 : "${model:=sarima}"       # Modelltyp (Standard: lgbm) # Auswahl: random_forest, svr, xgboost, lgbm, lr, sarima
-source /gxfs_home/geomar/smomw693/Documents/GEOMAR-DeepLearning/.venv/bin/activate
+source /gxfs_home/geomar/smomw693/Documents/Masterarbeit_code/.venv/bin/activate
 
 
 python 04_Versuch2_MODEL_TRAINING.py --n_trials "$N_TRIALS" --timeout "$timeout" --model "$model"
