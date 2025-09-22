@@ -1,0 +1,2 @@
+MSE,RMSE,MAE,Recall,Precision,F1,Accuracy,Custom Score,Time Prediction [s],Num Parameters
+0.0446,0.1967,0.15,0.6347,0.6317,0.6317,0.942,0.2196,1e-05,84097.0

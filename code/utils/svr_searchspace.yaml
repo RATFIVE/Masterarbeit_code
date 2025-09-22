@@ -1,0 +1,36 @@
+C:
+  type: float
+  low: 0.1
+  high: 50.0
+  log: true
+
+epsilon:
+  type: float
+  low: 0.01
+  high: 1.0
+  log: true
+
+kernel:
+  type: categorical
+  options: ["rbf", "linear", "poly", "sigmoid"]
+
+degree:
+  type: int
+  low: 1
+  high: 1
+
+gamma:
+  type: categorical
+  options: ["scale", "auto"]
+
+shrinking:
+  type: categorical
+  options: [true, false]
+
+tol:
+  type: float
+  low: 1e-4
+  high: 1e-2
+  log: true
+
+max_iter: 50000

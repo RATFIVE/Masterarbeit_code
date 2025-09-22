@@ -1,0 +1,17 @@
+pandas
+numpy
+tqdm
+pymongo
+requests
+xarray
+copernicusmarine
+openmeteo_requests
+retry_requests
+requests_cache
+astroquery
+pytz
+astropy
+fastapi
+dotenv
+matplotlib
+folium

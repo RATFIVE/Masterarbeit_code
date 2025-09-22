@@ -1,0 +1,197 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+
+# OS-/Systemdateien
+.DS_Store
+*.sqlite
+*.log
+*.out
+
+# C extensions
+*.so
+
+# NetCDF-Daten
+*.nc
+!data/observation/NO_TS_TG_EckernfoerdeTG.nc
+!data/observation/NO_TS_TG_KielHoltenauTG.nc
+!data/observation/NO_TS_TG_FlensburgTG.nc
+!data/observation/NO_TS_TG_KappelnTG.nc
+!data/observation/NO_TS_TG_LuebeckTG.nc
+!data/observation/NO_TS_TG_TravemuendeTG.nc
+!data/observation/NO_TS_TG_WarnemuendeTG.nc
+
+# Medien-/Outputdateien
+*.png
+*.gif
+*.mp4
+*.tsv
+
+# Windows Zone Identifier
+*:Zone.Identifier:Zone.Identifier
+*:Zone.Identifier
+
+# CSV/JSON Outputdaten
+# (Projekt-/Zwischendaten, nicht versionieren)
+df_ocean_weather_points10.csv
+df_ocean_weather_points10.json
+df_weather5.csv
+df_weather5.json
+df_weather10.csv
+df_weather10.json
+output-2025-01-01-1.075874074001014.nc.json
+output-2023-01-01-1.075874074001014.nc.json
+output-2024-01-01-1.075874074001014.nc.json
+df_ocean_weather_target.json
+b'KielHoltenauTG'_hourly.json
+df_ocean.csv
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#Pipfile.lock
+
+# UV
+#uv.lock
+
+# poetry
+#poetry.lock
+
+# pdm
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#.idea/
+
+# PyPI configuration file
+.pypirc
+
+# all file which are in runs
+runs/
+code/models/fcsequence_model.pth
+code/models/x_scaler.pkl
+
+*.pt
+*.pkl

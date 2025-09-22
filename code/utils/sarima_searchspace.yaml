@@ -1,0 +1,42 @@
+p:
+  type: int
+  low: 0
+  high: 3
+  step: 1
+
+d:
+  type: int
+  low: 0
+  high: 2
+  step: 1
+
+q:
+  type: int
+  low: 0
+  high: 3
+  step: 1
+
+P:
+  type: int
+  low: 0
+  high: 2
+
+D:
+  type: int
+  low: 0
+  high: 1
+
+Q:
+  type: int
+  low: 0
+  high: 2
+
+s:
+  type: int
+  low: 6
+  high: 30
+  step: 1  
+
+trend:
+  type: categorical
+  options: ['n', 'c', 't', 'ct']

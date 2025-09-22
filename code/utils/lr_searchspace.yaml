@@ -1,0 +1,22 @@
+degree:
+  type: int
+  low: 1
+  high: 1
+
+interaction_only:
+  type: categorical
+  options: [true, false]
+
+include_bias:
+  type: categorical
+  options: [true, false]
+
+fit_intercept:
+  type: categorical
+  options: [true, false]
+
+positive:
+  type: categorical
+  options: [true, false]
+
+n_jobs: -1
